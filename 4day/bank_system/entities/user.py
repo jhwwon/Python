@@ -20,7 +20,7 @@ class User:
     join_date: Optional[datetime] = None  # 회원가입일
     
     def __post_init__(self):
-        """객체 생성 후 초기화"""
+        """객체 생성 후 자동 초기화(가입일 설정)"""
         if self.join_date is None:
             self.join_date = datetime.now()
     
