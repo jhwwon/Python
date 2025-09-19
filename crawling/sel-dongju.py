@@ -6,7 +6,7 @@ import urllib.request
 url = "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC"
 # Header 설정
 headers = {
-    "User-Agent": "User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",  # 사용자 브라우저에서 실행한 것처럼 설정1
+    "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',  # 사용자 브라우저에서 실행한 것처럼 설정1
 }
 
 # header 포함 요청 객체 생성

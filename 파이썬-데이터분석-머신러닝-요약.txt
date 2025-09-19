@@ -1,0 +1,15 @@
+\\192.168.0.22
+id: human-01      pw: 1234
+
+beautifulsoup -> find, select
+urllib, requests(method) -> 웹 url요청할 때
+selenium -> 일반적인 요청이 아니라 실제 웹브라우저를
+                 실행시켜서 시뮬레이션을 하여 크롤링
+api - json, xml
+crontab(ubuntu, macosx), 작업스케쥴링(window)
+
+네이버 증권, 쿠팡, 위키피디아 등의 실제 웹사이트
+를 대상으로 크롤링 연습
+
+json, xml, yaml, csv -> 텍스트파일
+xlsx -> 바이너리(binary)파일 -> 전용 프로그램 파일 (office365)
